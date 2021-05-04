@@ -3,7 +3,7 @@
 body {
   margin: 0 !important;
   padding: 0 !important;
-  background-image: url('src/assets/3.jpg');
+  /* background-image: url('src/assets/3.jpg'); */
   font-family: 'Share Tech', monospace !important;
   background-color: rgba(0, 0, 0, 0.816);
   background-blend-mode: overlay;

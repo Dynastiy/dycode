@@ -2,6 +2,9 @@ import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
 import routes from './router/router'
+import axios from 'axios'
+
+Vue.use(axios);
 
 Vue.use(VueRouter)
 

@@ -24,11 +24,15 @@ export default {
 
 #app {
   background-image: url('./assets/3.jpg');
-  background-size: 100% 100%;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position-x: center; */
   min-height: 100vh !important;
-  background-color: rgba(0, 0, 0, 0.9) ;
+  background-color: rgba(0, 0, 0, 0.7);
   background-blend-mode: overlay;
-  font-family: 'Share Tech', monospace !important;
+  /* font-family: 'Share Tech', monospace !important; */
+  font-family: 'Ubuntu', sans-serif;
 }
 
 </style>

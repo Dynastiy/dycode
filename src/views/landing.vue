@@ -1,11 +1,17 @@
 <template>
   <div class="">
     <!--Clock here -->
-    <p class="text-white text-center text-info mt-4" style="font-size:3rem">{{ display }}</p>
+    <p class="text-white text-center text-info mt-4" style="font-size:1.3rem">{{ display }}</p>
+    <div class="text-center mt-5">
+        <img src="@/assets/headshot.jpg" class="image1 px-1 py-1 rounded-circle" width="150" height="150">
+    </div>
+    <div>
+      <div> <i class="fa fa-play text-info" aria-hidden="true"></i> </div>
+    </div>
 
     <div class="hero">
-      <h1 style="font-family: 'Dancing Script', cursive;" class="text-white text-center header-text animate__animated animate__slower  animate__flash">Emmanuel 
-       Michael</h1>
+      <h5 class="text-white text-center header-text animate__animated animate__slower  animate__flash">Emmanuel 
+       Michael</h5>
       <hr>
       <ul class="text-center text-info">
         <li class="mr-4 item" > <i class="fas fa-circle-notch fa-xs" aria-hidden="true"></i> Web Developer </li>
@@ -62,7 +68,7 @@ export default {
   },
   computed: {
       display() {
-        return moment(this.time).format("HH:mm:ss");
+        return moment(this.time).format("dddd hh:mm:ss A");
       }
     },
     created() {
@@ -94,13 +100,15 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
   .hero{
-     padding-top: 4rem;
+     padding-top: 1rem;
   }
   .row {
     margin: 0 !important;
     padding: 0 !important;
   }
-
+.image1 {
+  border: 3px solid #fff;
+}
 /*For circular menu */
   /* Demo by http://creative-punch.net */
 
@@ -173,7 +181,9 @@ export default {
 
 
   .header-text{
-    font-size: 4rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    /* color: ; */
     /* letter-spacing: 0.2rem; */
   }
   .hero li{
@@ -237,7 +247,7 @@ export default {
 
 @media screen and (max-width: 992px) {
   .hero {
-    padding-top: 3rem;
+    padding-top: 1rem;
   }
 }
 </style>
