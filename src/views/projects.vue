@@ -7,6 +7,10 @@
                 <a href="https://zugascan.com/">ZugaScan</a>
             </div>
             <div class=" mb-3 cards">
+                <img class="mr-4 img"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-3mIWd_qL-zSjpZtx4m42887RyyiW63mNXC634PiAYScnqYdhVQ-KiSsZ3kp5JZFdLt8&usqp=CAU">
+                <a title="Feera Website" href="https://dy-qrcodegen.netlify.app/">QR Code Generator</a>
+            </div>
+            <div class=" mb-3 cards">
                 <img class="mr-4 img"  src="@/assets/img/feera.jpg">
                 <a title="Feera Website" href="https://feera.netlify.app">FEERA</a>
             </div>
