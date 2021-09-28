@@ -21,7 +21,7 @@
         <li class="item"> <i class="fas fa-circle-notch fa-xs" aria-hidden="true"></i> Actor/Director </li>
       </ul>
 <div class="text-center my-3">
-        <a href="https://docs.google.com/document/d/1huDizeZfzoHS9U8z_Knw5miKKBPrAttr/edit#heading=h.1fob9te"> <button class="btn btn-info rounded-0 px-3 py-1">View Resume</button> </a>
+        <a href="https://docs.google.com/document/d/1h0li1L4LmDooytd0wNYorB3eG9wcLYQrsvDS2qoepig/edit?usp=sharing"> <button class="btn btn-info rounded-0 px-3 py-1">View Resume</button> </a>
       </div>
       <nav class="circular-menu">
 
